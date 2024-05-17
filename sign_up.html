@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Ali Ahmed">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Health Club</title>
+        <link rel="stylesheet" href="home.css">
+        <script src="sign_up.js"defer></script>
+
+    </head>
+    <body style="background-color: yellow;">
+        <header class="home">
+            <div>
+                <img src="arm.png" height="300" width="350" class="center_logo">
+            </div>
+            <div id="navbar">
+                <nav>
+                    <div style="float: left; width: 30%;">
+                        <a href="index.html"><img src="Logo.png" alt=""  class="nav_logo"></a>
+                    </div>
+                    <div style="float: right; width: 70%;">
+                        <ul>
+                            <li><a href="activities.html"><img src="activity.png" alt="" class="nav_logo"></a></li>
+                            <li><a href=""><img src="contact.png" alt="contact"></a></li>
+                            <li><a href="sign_up.html"><img src="register.png" alt="" class="nav_logo"></a></li>
+                        </ul>
+                    </div>
+                    
+                </nav> 
+            </div>
+        </header>
+
+        <div id="Submitted" class="center">
+
+        </div>
+
+        
+        <div class="container">
+            <form onsubmit="required()" name="form" >
+
+                <fieldset>
+
+                <legend>
+                    <img src="signUp.png" alt="" style="padding: 9px;">
+                </legend>
+                
+                <div>
+                    <label class="info_text">Full Name</label> 
+                    <div>
+                        <input required name="full_name" placeholder="Full Name" type="text">
+                    </div>
+                </div>
+                    
+                <div>
+                    <label class="info_text">Phone Number</label>
+                    <div>
+                        <input required name="phone_number" placeholder="123-456-7890" type="tel">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="info_text">Email</label>
+                    <div>
+                        <input required name="email" placeholder="Email Address" type="email">
+                    </div>
+                </div>
+                
+                
+                <div> 
+                <label class="info_text">Gym Location</label>
+                    <div>
+                        <div>
+                            <select required name="state">
+                                <option value=" ">---</option>
+                                <option>New Jersey</option>
+                                <option>New York</option>
+                                <option>North Carolina</option>
+                                <option>Ohio</option>
+                                <option>Oklahoma</option>
+                                <option>Pennsylvania</option>
+                                <option>Rhode Island</option>
+                                <option>South Carolina</option>
+                                <option>Texas</option>
+                                <option>Virginia</option>
+                                <option>West Virginia</option>
+                            </select>
+                        </div>
+                    </div> 
+                <div>
+
+                <label></label>
+                <div>
+                    <button type="submit" style="background-color: yellow;">
+                        <img src="submit.png" alt="submit">
+                    </button>
+                </div>
+                </div>  
+
+                </fieldset>
+            </form>
+        </div>
+
+        <footer>
+            
+        </footer>
+    </body>
+</html>

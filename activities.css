@@ -1,0 +1,45 @@
+#calendar_table {
+    background-color: black;  
+    font-size: 0.9em; 
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    max-width: 70%;
+    margin: auto;
+ 
+    box-shadow: white 0px 0px 5px,
+                white 0px 0px 5px, 
+                white 0px 0px 5px,
+                white 0px 0px 5px;               
+ }
+ 
+ #calendar_table caption {
+    caption-side: top; 
+    text-align: center;
+    padding-bottom: 20px; 
+    font-size: 1.6em; 
+    letter-spacing: 0.3em;
+ }
+ 
+ .calendar_weekdays {
+    background-color: white;
+    color: purple;
+    width: 14.28%; 
+    font-size: 1em; 
+ }
+ 
+ .calendar_dates {
+    text-align: left; 
+    vertical-align: top;
+    font-size: 0.8em;
+    padding: 3px;
+    border: 1px dotted white;
+    background-color: purple;
+    height: 60px;
+    color: white;
+ }
+ 
+ #calendar_today {
+    font-weight: bold; 
+    color: purple;
+    background-color: red;
+    border: 1px solid purple;
+ }
